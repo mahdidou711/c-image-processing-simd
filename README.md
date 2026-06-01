@@ -1,5 +1,8 @@
 # C Image Processing SIMD
 
+[![C CI](https://github.com/mahdidou711/c-image-processing-simd/actions/workflows/ci.yml/badge.svg)](https://github.com/mahdidou711/c-image-processing-simd/actions/workflows/ci.yml)
+
+
 This repository contains a cleaned C project around image processing and SIMD-oriented optimization.
 
 ## Goals
