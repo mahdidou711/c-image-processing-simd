@@ -32,9 +32,9 @@ A Makefile will be added after normalizing the entry points and function names.
 
 For now, compilation can be tested manually with:
 
-gcc -Wall -Wextra -O2 -Iinclude src/lib_bmp.c src/tp8_etudiants.c -o image_processing
+gcc -Wall -Wextra -O2 -fopenmp -Iinclude src/lib_bmp.c src/tp8_etudiants.c -o image_processing
 
-Depending on the target platform, SIMD-specific flags may be required.
+This command uses OpenMP, so the compiler must support `-fopenmp`. Depending on the target platform, SIMD-specific flags may also be required.
 
 ## Notes
 
