@@ -52,6 +52,8 @@ Equivalent explicit target:
 make tp8
 ```
 
+**TP10 platform requirement:** Unlike TP8, `src/main_tp10.c` includes `<arm_neon.h>` unconditionally and enables `SIMD_VERSION`. Therefore, `make tp10` requires a compatible ARM NEON toolchain and target. It is not expected to build with a standard x86 GCC toolchain. The current GitHub Actions workflow does not build or run TP10.
+
 Build the TP10 executable:
 
 ```bash

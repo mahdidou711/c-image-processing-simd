@@ -16,3 +16,7 @@ CLAUDE.md
 *.7z
 images_scalaire/
 images_simd/
+
+# Generated executables
+/image_processing_tp8
+/image_processing_tp10
